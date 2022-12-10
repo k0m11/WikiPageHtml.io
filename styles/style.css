@@ -1,0 +1,156 @@
+/* Content */
+body {
+    margin: 1;
+    padding: 0;
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(33, 102, 214);
+}
+
+span {
+    font-style: italic;
+}
+
+
+.list-container {
+    border-style: solid ;
+    display: inline-block;
+    border-width: 0.5px;
+    padding: 7px;
+    border-color:rgb(145, 180, 235);
+}
+
+.list-container>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.image {
+    float: right;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-left: 10px;
+    border-color:rgb(145, 180, 235);
+}
+
+.image>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logohtml5 {
+    max-width:70px;
+}
+
+.UnderImg {
+    margin-right: 90px;
+}
+
+.UnderImg>p {
+    margin: 5px;
+    padding: 0;
+}
+
+.Round {
+    
+}
+
+
+.TopText {
+    padding-inline:110px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgb(145, 180, 235);
+
+}
+
+.Above-navigation {
+    padding-inline:10px;
+    font-weight: bold;
+    justify-content:center;
+    background-color: rgb(145, 180, 235);
+}
+
+/* Head Navigation Panel */
+
+.nav-container {
+    background: linear-gradient(to top, #c5d3f6 10%, #dfe7fc 50%, #ffffff 78%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container>nav>ul {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    list-style: none;
+
+}
+
+.nav-container>nav>ul>li {
+    display: block;
+    padding: 10px;
+    border-style:solid;
+    border-width: 0.5px ;
+}
+
+.nav-container>nav>ul>li>a {
+    color: black;
+}
+
+@media (max-width: 900px) {
+    .nav-container {
+        flex-direction: column;
+    }
+}
+
+.Page {
+    display: flex;
+    justify-content: center;
+}
+
+.Header {
+    width: 14%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Header>ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.Header>div {
+    width: 100%;
+}
+
+.Header>div>img {
+    width: 100%;
+}
+
+.Section{
+    width: 84%;
+}
+
+.text-content {
+    padding-left: 15px;
+}
+
+.black {
+    padding-top: 10px;
+}
+
+.black>a {
+
+    font-weight: bold;
+    color: black;
+}
