@@ -56,10 +56,6 @@ span {
     padding: 0;
 }
 
-.Round {
-    
-}
-
 
 .TopText {
     padding-inline:110px;
@@ -116,7 +112,11 @@ span {
 }
 
 .Header {
-    width: 14%;
+    min-width: 140px;
+    max-width: 200px;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 12%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -138,7 +138,7 @@ span {
 }
 
 .Section{
-    width: 84%;
+    width: 88%;
 }
 
 .text-content {
