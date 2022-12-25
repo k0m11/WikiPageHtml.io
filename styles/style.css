@@ -1,4 +1,3 @@
-/* Content */
 body {
     margin: 1;
     padding: 0;
@@ -139,6 +138,12 @@ span {
 
 .Section{
     width: 88%;
+}
+
+@media (max-width: 700px) {
+    .Section{
+        width: 73%;
+    }
 }
 
 .text-content {
