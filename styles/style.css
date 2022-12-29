@@ -1,3 +1,4 @@
+/* Content */
 body {
     margin: 1;
     padding: 0;
@@ -8,13 +9,17 @@ body a {
     color: rgb(33, 102, 214);
 }
 
+body a:hover {
+    text-decoration:underline;
+}
+
 span {
     font-style: italic;
 }
 
 
 .list-container {
-    border-style: solid ;
+    border-style: solid;
     display: inline-block;
     border-width: 0.5px;
     padding: 7px;
@@ -73,6 +78,10 @@ span {
 
 /* Head Navigation Panel */
 
+.nav-container2 {
+    display: none;
+}
+
 .nav-container {
     background: linear-gradient(to top, #c5d3f6 10%, #dfe7fc 50%, #ffffff 78%);
     display: flex;
@@ -99,9 +108,47 @@ span {
     color: black;
 }
 
+.nav-btn {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .nav-container {
         flex-direction: column;
+    }
+}
+
+@media (max-width:825px) {
+    .nav-container2>nav>ul>li {
+        list-style: none;
+    }
+    .nav-container {
+        display: none;
+    }
+    .nav-btn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border-width: 0.5px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        display: block;
+        cursor: pointer;
+    }
+    .Section:hover .nav-container2 {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-width:0.5px;
+        border-style: solid ;
+    }
+    .Section {
+        justify-content: space-between;
+    }
+    .nav-btn:hover {
+        background-color: rgb(209, 209, 209);
+    }
+    .nav-container2 nav ul li:hover {
+        background-color: white;
     }
 }
 
@@ -154,8 +201,10 @@ span {
     padding-top: 10px;
 }
 
-.black>a {
-
+.black {
     font-weight: bold;
     color: black;
+}
+.black>a:hover {
+    text-decoration: none;
 }
