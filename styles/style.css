@@ -198,9 +198,9 @@ span {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .Section{
-        width: 68%;
+        width: 60%;
     }
     .image {
         width: 200px;
