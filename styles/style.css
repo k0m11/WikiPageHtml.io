@@ -1,4 +1,5 @@
 /* Content */
+
 body {
     margin: 1;
     padding: 0;
@@ -19,6 +20,7 @@ span {
 
 
 .list-container {
+    border-radius: 10px;
     border-style: solid;
     display: inline-block;
     border-width: 0.5px;
@@ -33,6 +35,7 @@ span {
 
 
 .image {
+    border-radius: 10px;
     float: right;
     padding: 5px;
     border-style: solid;
@@ -126,6 +129,7 @@ span {
         display: none;
     }
     .nav-btn {
+        border-radius: 10px;
         font-size: 2em;
         padding-inline: 10px;
         padding-bottom: 3px;
@@ -162,8 +166,9 @@ span {
     max-width: 200px;
     border-style: solid;
     border-width: 0.5px;
-    width: 12%;
+    width: 6%;
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .Header>ol {
@@ -184,12 +189,27 @@ span {
 }
 
 .Section{
-    width: 88%;
+    width: 94%;
 }
 
 @media (max-width: 700px) {
     .Section{
         width: 73%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Section{
+        width: 68%;
+    }
+    .image {
+        width: 200px;
+    }
+    .TopText {
+        padding-inline:70px;
+    }
+    .image img {
+        width: 10em;
     }
 }
 
